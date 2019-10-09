@@ -1,13 +1,11 @@
-# moz-api 
-[![Coverage Status](https://coveralls.io/repos/github/avamia-dm/moz-api/badge.svg?branch=master)](https://coveralls.io/github/avamia-dm/moz-api?branch=master) 
-[![Build Status](https://travis-ci.org/avamia-dm/moz-api.svg?branch=master)](https://travis-ci.org/avamia-dm/moz-api)
+# moz-api-wrapper 
 
 Moz Link API wrapper written in javascript for node applications (can also run in the browser). Fetch link data and other metrics from various endpoints, including Url Metrics, Top Page Metrics, and others. The Link API is a paid plan, they offer a limited free version to the API as well.
 
 ## Installation
 
 ```bash
-npm install --save moz-api
+npm install --save moz-api-wrapper
 ```
 
 ## Motivation
@@ -58,4 +56,4 @@ moz.urlMetrics
 This library is licensed under MIT. See [LICENSE][license].
 
 [api-docs]: https://moz.com/help/links-api
-[license]: https://github.com/avamia-dm/moz-api/blob/master/LICENSE
+[license]: https://github.com/LoremTech/moz-api-wrapper/blob/master/LICENSE

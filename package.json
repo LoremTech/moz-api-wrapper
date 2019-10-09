@@ -1,16 +1,12 @@
 {
-  "name": "moz-api",
-  "version": "1.2.6",
+  "name": "moz-api-wrapper",
+  "version": "1.2.7",
   "description": "A lightweight javascript API wrapper for the Moz API",
   "main": "index.js",
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha",
     "lint": "eslint ./lib",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avamia-dm/moz-api.git"
   },
   "keywords": [
     "moz",
@@ -20,12 +16,7 @@
     "seo",
     "moz.com"
   ],
-  "author": "Avamia <engineering@avamia.com> (https://www.avamia.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/avamia-dm/moz-api/issues"
-  },
-  "homepage": "https://github.com/avamia-dm/moz-api#readme",
   "devDependencies": {
     "axios-mock-adapter": "^1.17.0",
     "chai": "^4.2.0",
